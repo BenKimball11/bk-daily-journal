@@ -1,0 +1,14 @@
+
+  .copyright {
+      display: flex;
+      justify-content: space-evenly;
+      justify-content: center;
+  }
+
+  
+
+ .journal-date, .journal-concept, .journal-entry, .journal-mood{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}

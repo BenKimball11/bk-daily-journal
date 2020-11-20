@@ -3,9 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    
+    <div class ="header-container">
+        <div>
+            <img class="logo" src="images/dailyjournallogo.png">
+        </div>
+        <div>
+            <h2>Ben Kimball's Journal</h2>
+        </div>
+    </div>
+    <form action="journal-specifics">
+        <fieldset class="journal-date">
+            <label for="journalDate">Date of entry</label>
+            <input type="date" name="journalDate" id="./styles/main.css">
+        </fieldset>
+        <fieldset class="journal-concept">
+            <label for="journalConcept">Concepts covered</label>
+            <input type="" name="journalConcept" id="./styles/main.css">
+        </fieldset>
+        <fieldset class="journal-entry">
+            <label for="journalEntry">Journal entry</label>
+            <input type="entry" name="journalEntry" id="./styles/main.css">
+        </fieldset>
+        <fieldset class="journal-mood">
+            <label for="journalMood">Mood for the day</label>  
+            <select id="mood" name="mood">
+                <option value="great">Great</option>
+                <option value="good">good</option>
+                <option value="needs work">Needs work</option>
+            </select>
+         </fieldset>
+         <button type="record journal entry" value="Record Journal Entry">Record Journal Entry</button>
+
+    </form>
+    <header>
+
+    </header>
+    <main class="content">
+       
+    </main>
+    <footer class="copyright">
+        <h6>2020 Ben Kimball Daily Journal, Inc. All rights reserved &#169</h6>
+        <h6><div class="page"><a href="https://github.com/BenKimball11">Github account</a></div></footer></h6>
+    </footer>
 </body>
 </html>
+
